@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ms_bg_green{
+    background-color: #1abc9c;
+}
+
+.ms_line{
+    display: inline-block;
+    border: 2px solid white;
+    width: 15%;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.ms_wid_fix{
+    width: 250px;   
+}
+
+
+
+
+/* RESPONSIVE */
+@media all and (min-width: 576px){}
+
+/* MD */
+@media all and (min-width: 768px){
+    h1.fw-bold.pt-2.text-white{
+        font-size: 60px;
+    }
+    .ms_line{
+        width: 20%;
+    }
+    span.fs-5{
+        display: inline-block;
+        font-size: 1.6rem !important;
+    }
+}
+/* MD */
+
+/* LG */
+@media all and (min-width: 992px){
+
+}
+/* LG */

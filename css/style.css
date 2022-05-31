@@ -28,6 +28,7 @@
 .ms_fw_bold{
     font-weight: 700;
 }
+
 /* PADDING-MARGIN */
 .ms_pad_small{
     padding: 10px;
@@ -38,6 +39,12 @@
 }
 /* PADDING-MARGIN */
 
+/* FLEX */
+.ms_jc_center{
+    justify-content: center;
+}
+
+/* SECTION-START */
 .ms_vert_al{
     vertical-align: middle;
 }
@@ -62,10 +69,17 @@
     vertical-align: middle;
     padding: 10px;
     font-size: 30px;
-    color: white;
+}
+/* SECTION-START */
+
+.ms_bc_black{
+    border-color: black;
 }
 
-
+.ms_img_smart{
+    width: 100%;
+    border-radius: 15px;
+}
 
 
 /* RESPONSIVE */

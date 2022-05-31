@@ -4,9 +4,50 @@
     box-sizing: border-box;
 }
 
+/* TEXT */
+.ms_txt_center{
+    text-align: center;
+}
+
+.ms_txt_white{
+    color: white;
+}
+
+.ms_fs_med{
+    font-size: 20px;
+}
+
+.ms_fs_big{
+    font-size: 40px;
+}
+
+.ms_fw_big{
+    font-weight: 600;
+}
+
+.ms_fw_bold{
+    font-weight: 700;
+}
+/* PADDING-MARGIN */
+.ms_pad_small{
+    padding: 10px;
+}
+
+.ms_pad_big{
+    padding: 30px;
+}
+/* PADDING-MARGIN */
+
+.ms_vert_al{
+    vertical-align: middle;
+}
 
 .ms_bg_green{
     background-color: #1abc9c;
+}
+
+.ms_wid_fix{
+    width: 250px;   
 }
 
 .ms_line{
@@ -17,8 +58,11 @@
     opacity: 1;
 }
 
-.ms_wid_fix{
-    width: 250px;   
+#star{
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
 }
 
 
@@ -29,21 +73,22 @@
 
 /* MD */
 @media all and (min-width: 768px){
-    h1.fw-bold.pt-2.text-white{
+    h1.ms_fs_big.ms_txt_white.ms_fw_bold{
         font-size: 60px;
     }
-    .ms_line{
-        width: 20%;
+    span.ms_fs_med.ms_txt_white.ms_fw_big{
+        font-size: 25px;
     }
-    span.fs-5{
-        display: inline-block;
-        font-size: 1.6rem !important;
+    #star{
+        padding: 10px 15px
     }
 }
 /* MD */
 
 /* LG */
 @media all and (min-width: 992px){
-
+    .ms_line{
+        width: 20%;
+    }
 }
 /* LG */

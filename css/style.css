@@ -53,6 +53,10 @@
 .ms_bg_blue{
     background-color: #2c3e50;
 }
+
+a:hover{
+    color: white;
+}
 /* NAVBAR */
 
 
@@ -117,6 +121,17 @@
 /* SECTION-CONTACT */
 
 /* FOOTER */
+.ms_bg_info{
+    background-color: #3a546d;
+}
+
+.ms_round{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 .ms_bg_foot{
     background-color: #2c3e50;
 }
@@ -125,6 +140,11 @@
     height: 100px;
     align-items: center;
 }
+
+#ms_color_green{
+    color: #1abc9c;
+}
+
 /* FOOTER */
 
 /* RESPONSIVE */

@@ -95,6 +95,27 @@
 }
 /* SECTION-PORTFOLIO */
 
+/* SECTION-CONTACT */
+.ms_input{
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.ms_col_btn{
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+#btn{
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+/* SECTION-CONTACT */
+
 /* FOOTER */
 .ms_bg_foot{
     background-color: #2c3e50;
